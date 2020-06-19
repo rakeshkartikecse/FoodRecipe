@@ -8,12 +8,12 @@ function App() {
   
   const [search, setSearch]=useState("chiken");
   const [recipes,setRecipes]=useState([]);
-  const APP_ID="e40af857";
-  const APP_KEY="1d1d892b78d1d30d671b7efde98c0a86";
+  const APP_ID="e40af8";
+  const APP_KEY="1d1d892b78d1d30d671b7";
 
   useEffect(()=>{
      getRecipes();
-  },[])
+  },[]);
 
   const getRecipes( async ()=>{
 
