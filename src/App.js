@@ -6,7 +6,6 @@ import Recipes from "./components/Recipes"
 function App() {
   return(
     <div className="App">
-      <h1>food recipe</h1>
       <Header />
       <Recipes />
 
